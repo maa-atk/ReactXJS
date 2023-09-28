@@ -28,3 +28,19 @@ console.log(moduleVarExported)
 // got this from the module variable wil throw error not defined
 console.log(moduleVar)
 
+// let var and const
+
+let varlet1=1
+//let varlet1=1 //error cannot be redeclared 
+var z=1
+var z=1
+// can be redeclared //scoped to the next function if no function present then global
+// var hoisted the initilization 
+
+//const vs let 
+const k=1
+k=2 // not allowed to change the variable value ie value for primitives or reference in case of obj and arrays
+let l=1
+l=2 // allowed
+
+
