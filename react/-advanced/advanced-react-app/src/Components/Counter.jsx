@@ -12,6 +12,15 @@ const Counter = () => {
         setCount(count+1)
         // /console.log(count)
     }
+
+    const sayHello=()=>{
+      console.log('infinite')
+      //if setCount used here then infinite loop
+      //sayHello('1')
+    }
+    //called everytime re render happens / load / refresh screen /use state
+    sayHello();
+
   return (
     <section>
     <button onClick={handleClickAdd}>+</button>
