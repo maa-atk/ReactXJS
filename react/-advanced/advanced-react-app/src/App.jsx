@@ -8,6 +8,7 @@ import { UseEffectsBasics } from "./Components/UseEffectsBasics";
 import FetchUsers from "./Components/FetchUsers";
 import Form from "./Components/Form";
 import UseRefBasics from "./Components/UseRefBasics";
+import NavBar from "./Components/ContextAPI/NavBar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,7 +21,8 @@ function App() {
       {/* <UseEffectsBasics></UseEffectsBasics> */}
       {/* <FetchUsers></FetchUsers> */}
       {/* <Form></Form> */}
-      <UseRefBasics></UseRefBasics>
+      {/* <UseRefBasics></UseRefBasics> */}
+      <NavBar></NavBar>
     </>
   );
 }
